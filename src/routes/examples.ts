@@ -1,7 +1,7 @@
 // import { zValidator } from "@hono/zod-validator";
 // import { and, desc, eq } from "drizzle-orm";
 import {
-    Hono,
+  Hono,
 } from "hono";
 // import { HTTPException } from "hono/http-exception";
 // import { z } from "zod";
@@ -11,6 +11,6 @@ import {
 // import { } from "../types";
 
 export const exampleRoute = new Hono()
-    .get("/examples", async (c) => {
-        return c.json("This is an example route", 200);
-    });
+  .get("/examples", async (c) => {
+    return c.json("This is an example route", 200);
+  });
